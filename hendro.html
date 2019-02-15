@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jimi</title>
+
+
+<style>
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+background: url('jimi-good.jpg') ;
+background-repeat:no-repeat;
+background-position: center center;
+background-size: 500px;
+opacity:0.3;
+}
+</style>
+
+
+
+<style>
+.jimi-container {position: relative; width: 500px; height: 800px;background: blue;margin: auto;}
+.jimi-shirt {position: absolute; background-color: green; height:50px; width: 200px; top: 180px; left: 220px; transform: rotate(15deg); /* Equal to rotateZ(45deg) */}
+.jimi-shoulder {position: absolute;width: 90px; height: 50px;background-color: green; right: 0; top: -20px; border-radius: 70%;}
+</style>
+</head>
+
+<body>
+<div class="jimi-container">
+<div class="jimi-shirt"> <div class="jimi-shoulder"></div>
+<div class="jimi-shirt2"></div>
+</div>
+</body>
+
+</html>
