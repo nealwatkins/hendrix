@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+background: url('../jimi-good.jpg') ;
+background-repeat:no-repeat;
+background-position: top center;
+background-size: 500px;
+opacity:0.6;
+}
+.jimi-container  div {border: 1px solid black;}
+.jimi-container {
+  position: relative; width: 500px; height: 800px;background: blue;margin: 0 auto;
+}
+.jimi-shirt {
+position: absolute; background-color: green; height:40px; width: 200px; top: 280px; left: 220px; transform: rotate(17deg);
+border-radius: 0px 0px 13px 0px;
+}
+.jimi-shoulder {
+  position: absolute;width: 90px; height: 50px;background-color: green; right: 0; top: -30px; border-radius: 70%;
+}
